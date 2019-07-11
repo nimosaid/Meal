@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { MealComponent } from './meal/meal.component';
 import { MealFormComponent } from './meal-form/meal-form.component';
 import { CaloriesPipe } from './calories.pipe';
+import { MealEditComponent } from './meal-edit/meal-edit.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MealComponent,
     MealFormComponent,
-    CaloriesPipe
+    CaloriesPipe,
+    MealEditComponent
   ],
   imports: [
     BrowserModule

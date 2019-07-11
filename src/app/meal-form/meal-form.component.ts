@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Meal } from '../meal'
 
 @Component({
   selector: 'app-meal-form',
@@ -11,5 +12,7 @@ export class MealFormComponent implements OnInit {
 
   ngOnInit() {
   }
+
+  
 
 }
